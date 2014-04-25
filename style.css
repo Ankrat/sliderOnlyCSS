@@ -353,11 +353,7 @@
    padding: 0 0 0 10px;
 }
 
-#slider li#first:hover .tooltip,
-#slider li#second:hover .tooltip,
-#slider li#third:hover .tooltip,
-#slider li#fourth:hover .tooltip,
-#slider li#fifth:hover .tooltip {
+#slider li:hover .tooltip {
    left: 0px;
    transition: left 0.3s ease-in-out;
    -webkit-transition: left 0.3s ease-in-out;
